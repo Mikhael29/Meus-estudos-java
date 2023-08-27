@@ -14,7 +14,7 @@ public class TesteDeSelecao {
         boolean condicao_3 = c + d > a + b;
         boolean condicao_4 = c > 0 && d > 0;
         boolean condicao_5 = a % 2 == 0;
-        
+
         if (condicao_1 && condicao_2 && condicao_3 && condicao_4 && condicao_5) {
             System.out.println("Valores aceitos");
         } else {

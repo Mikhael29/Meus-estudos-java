@@ -31,4 +31,3 @@ public class Idade {
         sc.close();
     }
 }
-

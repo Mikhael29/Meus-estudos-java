@@ -9,16 +9,13 @@ public class OMaior {
         System.out.println("Digite o valor de B");
         int b = sc.nextInt();
 
-        if (a % b == 0 || b % a == 0)  {
-            System.out.println(a +" sao multiplos de " + b);
-        } 
-        else {
+        if (a % b == 0 || b % a == 0) {
+            System.out.println(a + " sao multiplos de " + b);
+        } else {
             System.out.println(a + " nao sao multiplos de " + b);
         }
 
         sc.close();
-
-       
 
     }
 }
